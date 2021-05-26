@@ -1,2 +1,14 @@
 /* @HOME */
 /* ********** */
+body{
+    background-color:  #D0EEFF;
+    
+}
+
+
+ // borderadius para Smartphone
+ @media only screen and (min-width: map-get($breakpoints, smartphone)) and (orientation: portrait) {
+   .banner img{
+        border-top-right-radius: 150px;
+    }
+    }
